@@ -5,7 +5,7 @@ import random
 app = FastAPI()
 
 @app.get("/")
-async def fantasyf1():
+def fantasyf1():
     teams = ['Alfa Romeo-Ferrari', 'AlphaTauri-Honda', 'Alpine-Renault', 'Aston Martin-Mercedes', 'Ferrari', 
             'Haas-Ferrari', 'McLaren-Mercedes', 'Mercedes', 'Red Bull Racing-Honda', 'Williams-Mercedes']
     drivers = ['7. Kimi Räikkönen', '99. Antonion Giovinazzi', '10. Pierre Gasly', '22. Yuki Tsunoda',
