@@ -2,4 +2,4 @@
 
 # DukeMIDS-FastAPI-Microservice
 
-This is a microservice that generates a random fantasy f1 team with a JSON output.
+This is a microservice that generates a random 2021 fantasy f1 team in a JSON output.
