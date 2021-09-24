@@ -15,7 +15,7 @@ def fantasyf1():
             '33. Max Verstappen', '11. Sergio Perez', '6. Nicholas Latifi', '63. George Russell']
     randteams = random.choice(teams)
     randdrivers = random.sample(drivers, 2)
-    result = None #f"Your fantasy F1 team is {randdrivers[0]} and {randdrivers[1]} at {randteams}."
+    result = "Your fantasy F1 team is {randdrivers[0]} and {randdrivers[1]} at {randteams}."
     
     return {"Result": result}
 
