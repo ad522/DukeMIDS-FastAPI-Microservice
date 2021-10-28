@@ -20,4 +20,11 @@ killweb:
 lint:
 	pylint --disable=R,C main.py
 
+
+dockerbuild:
+	docker build -t fantasyf1
+
+dockerrun:
+	docker run --name ff1 -d -p 1080:1080 fantasyf1
+
 all: install lint
